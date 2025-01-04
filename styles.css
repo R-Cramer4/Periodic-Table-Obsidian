@@ -15,21 +15,27 @@
 	background: #ffffff;
 	margin: 1px;
 	flex: 1;
-	height: 11%;
+	height: auto;
+    min-height: 22px;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-
 .elSymb{
-	font-size: 11px;
+	font-size: 60%;
 	margin: 0;
+    text-wrap: wrap;
+    word-wrap: break-all;
+    word-break: break-all;
 }
 .numOfEl{
-	font-size: 8px;
-    margin: 0;
+	font-size: 40%;
+	margin: 0;
+    text-wrap: wrap;
+    word-wrap: break-all;
+    word-break: break-all;
 }
 .number{
 	font-size: 11px;
